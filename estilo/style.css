@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: #fff url(../imagens/fundo.png) repeat-x;
+}
+body.home nav ul li a#home,
+body.brasil nav ul li a#brasil,
+body.internacional nav ul li a#internacional,
+body.economia nav ul li a#economia,
+body.saude nav ul li a#saude,
+body.ciencia nav ul li a#ciencia,
+body.fotos nav ul li a#fotos{
+
+    color: white;
+    background:#de003e ;
+    cursor:text ;
+    
+}
+/*Começo do topo do site*/
+
+header{
+    width: 750px;
+    height: 150px;
+    margin: 0px auto;
+    padding-top: 25px;
+    background: url(../imagens/detalhe-topo.png) no-repeat right top;
+    
+}
+.logo{
+
+    width: 152px;
+    height: 66px;
+    background: url(../imagens/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
+    header > nav > ul{
+
+        margin-top: 30px;
+        background: #b10333;
+        float: left;
+    }
+    header nav > ul > li{
+        float: left;
+    }
+    header nav > ul > li > a{
+        font-size: 0.9em;
+        display: block;
+        padding: 0.5em 1.5em;
+        line-height: 2.1em;
+        text-decoration: none;
+        color: #fff;
+        background: url(../imagens/divisor.png) no-repeat left center;
+    }
+    header nav > ul > li > a:hover{
+        color: #69001d;
+    }
+    header nav > ul > li:first-child > a {
+        background: none;
+    }
+ ul{
+     margin: 0px;
+    padding: 0px;
+    list-style: none;
+   
+} /*Fim do topo do site*/
+
+/*Começo do corpo do site*/
+    
+article{
+    width: 750px;
+    margin: 0px auto;
+    margin-top: 60px;
+   
+    background-color: #f5f5f5;
+}
+
+#uma-coluna article #primario{
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+ #duas-colunas article #primario{
+    width: 555px;
+}
+
+ article #primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+    
+}
+article #secundario{
+    width: 270px;
+    
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+h2{
+    font-size: 1em;
+    background: #294c71;
+    padding: 5px;
+    color: #fff;
+}
+
+img.imagem-principal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.85em;
+    padding: 3px;
+}
+.caixa h3{
+    background: #de003e;
+
+}
+.destaque h3{
+    background: #b10333;
+    color: #fff;
+}
+.entrevista h3{
+    background: #de003e;
+}
+ a[href = "Leia mais"]{
+    color: #92032c;
+} 
+/*Fim do corpo do site*/
+
+/*Começo da barra lateral do site*/
+article aside{
+    width: 180px;
+    float:left;
+    margin: 0 0 20px -750px;
+}
+
+ .caixa{
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+    margin: 10px 0;
+    padding: 5px ;
+}
+/*começo do menu da barra lateral*/
+.parte-lateral{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+aside ul a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.9em;
+    padding:5px ;
+    display: block;
+    line-height: 30px;
+    border-bottom: 1px solid #f3f3f3;
+}
+aside ul a:hover{
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+    text-decoration: underline;
+}/*fim do menu da barra lateral*/
+
+label{
+    display: block;
+    cursor: pointer;
+}
+input{
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: white;
+    border: 1px solid #c3c3c3;
+}
+input[type="submit"]{
+
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    
+}
+
+/*Fim da barra lateral do site*/
+
+/*Começo do rodape do site*/
+footer{
+    background:#294c71 ;
+    padding: 20px;
+    clear: both;
+}
+footer p{
+    width: 750px;
+    margin: 0px auto;
+    color: #fff;
+}
+/*Fim do rodape do site*/
