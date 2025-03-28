@@ -128,7 +128,44 @@ h3{
 .entrevista h3{
     background: #de003e;
 }
- a[href = "Leia mais"]{
+
+.lista-noticias li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 62px;
+}
+.lista-noticias li a {
+
+    text-decoration: none;
+    
+}
+.lista-noticias li a h3{
+    font-size: 0.8em;
+    color: #3e7ab9;
+    padding: 0px;
+}
+.lista-noticias li a p{
+    font-size: 0.7em;
+    color: #000;
+}
+.lista-noticias li:hover{
+    background: #eee;
+}
+.lista-noticias li a:hover{
+    text-decoration: underline;
+    color: #a1a1a1;
+}
+
+.lista-noticias li a img{
+    float: left;
+    margin: 5px;
+}
+
+.lista-noticias li a h3{
+    background-color: white;
+}
+
+ a[href = "Leia mais"], a[href = "novalegislacao.html"]{
     color: #92032c;
 } 
 /*Fim do corpo do site*/
@@ -197,8 +234,9 @@ footer{
     clear: both;
 }
 footer p{
+    text-align: center;
     width: 750px;
-    margin: 0px auto;
     color: #fff;
+    margin: 0px auto;
 }
 /*Fim do rodape do site*/
